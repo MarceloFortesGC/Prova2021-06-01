@@ -3,10 +3,12 @@ package prova.tarefas.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import prova.tarefas.entity.Tarefa;
 import prova.tarefas.repository.TarefaRepository;
 
+@Service
 public class TarefaService {
 
     @Autowired 
